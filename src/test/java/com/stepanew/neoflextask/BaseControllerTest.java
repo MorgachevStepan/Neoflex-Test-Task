@@ -10,7 +10,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 @SpringBootTest
 @ActiveProfiles("test")
-public abstract class BaseTestController {
+public abstract class BaseControllerTest {
 
 	@Autowired
 	protected WebApplicationContext webApplicationContext;

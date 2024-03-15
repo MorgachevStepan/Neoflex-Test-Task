@@ -11,7 +11,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @ActiveProfiles("test")
-public class CalculatorControllerTest extends BaseTestController {
+public class CalculatorControllerTest extends BaseControllerTest {
 
     @Test
     public void testCalculateCorrectVacation() throws Exception {
