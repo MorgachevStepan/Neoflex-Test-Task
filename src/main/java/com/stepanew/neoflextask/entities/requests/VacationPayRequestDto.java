@@ -12,7 +12,10 @@ import lombok.experimental.FieldDefaults;
 @Schema(description = "Request for vacation pay")
 public class VacationPayRequestDto {
 
+    @Schema(description = "Average salary", example = "100000")
     double averageSalary;
+
+    @Schema(description = "Vacation days", example = "14")
     int vacationDays;
 
 }

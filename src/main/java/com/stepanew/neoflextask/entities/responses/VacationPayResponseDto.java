@@ -12,6 +12,7 @@ import lombok.experimental.FieldDefaults;
 @Schema(description = "Response for salary")
 public class VacationPayResponseDto {
 
+    @Schema(description = "Total vacation pay", example = "40000")
     double totalVacationPay;
 
 }
